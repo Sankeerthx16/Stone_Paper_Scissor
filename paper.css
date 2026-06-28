@@ -21,20 +21,20 @@ body{
     
 }
 #s{
-    background-image: url("rock.png");
+    background-image: url("images/rock.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 #p{
-    background-image: url("paper.png");
+    background-image: url("images/paper.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 
 }
 #sc{
-    background-image: url("scissors.png");
+    background-image: url("images/scissors.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
