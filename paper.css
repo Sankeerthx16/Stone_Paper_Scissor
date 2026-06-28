@@ -1,0 +1,92 @@
+html, body{
+    height: 100%;
+    margin: 0;
+}
+
+body{
+    background: linear-gradient(
+        135deg,
+        #FFE5EC,
+        #E0C3FC,
+        #C9D6FF
+    );
+}
+.top{
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  
+    
+}
+#s{
+    background-image: url("rock.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#p{
+    background-image: url("paper.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+#sc{
+    background-image: url("scissors.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.sps:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+.sps{
+    height: 130px;
+    width: 130px;
+   margin-left: 5px;
+   margin-right: 5px;
+    background-color: rgb(231, 231, 152);
+    font-size: 1.5rem;
+    font-weight: 300;
+    border-radius: 50%;
+    border: 2px solid black;
+
+}
+
+.score{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.board{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px ;
+}
+
+#board1,#board2{
+    font-size: 2rem;
+    display: flexbox;
+    align-items: center;
+    justify-content: space-evenly;
+    font-weight: 500;
+}
+.msg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+#message{
+  
+    background-color: rgb(2, 8, 12);
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+
+}
